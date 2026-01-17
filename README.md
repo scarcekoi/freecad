@@ -37,8 +37,8 @@
 ## Usage
 
 1. Open the app and go to **Tools** > **Addon Manager**.
-2. Search for "Catppuccin {flavor}" (but replace flavor with the flavor of your choice).
-3. Select that theme and select `Install`.
+2. Search for `Catppuccin`.
+3. Select the theme of your choice from the options and select `Install`.
 
 ## 💝 Thanks to
 
