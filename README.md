@@ -36,9 +36,9 @@
 
 ## Usage
 
-1. Download the flavor of your choice.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
-3. Select the downloaded flavor file.
+1. Open the app and go to **Tools** > **Addon Manager**.
+2. Search for "Catppuccin {flavor}" (but replace flavor with the flavor of your choice).
+3. Select that theme and select `Install`.
 
 ## 💝 Thanks to
 
