@@ -1,0 +1,15 @@
+name: whiskers
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [mocha]
+  pull_request:
+    branches: [mocha]
+
+jobs:
+  run:
+    uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
+    with:
+      args: package.xml.tera
+    secrets: inherit
