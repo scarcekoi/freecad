@@ -15,7 +15,7 @@
   >https://github.com/scarcekoi/freecad/blob/main/README.md</url>
   <url type="website">https://catppuccin.com</url>
   <url type="bugtracker">https://github.com/catppuccin/freecad/issues</url>
-  <icon>icon/catppuccin.svg</icon>
+  <icon>resources/icon/catppuccin.svg</icon>
 
   <content>
     <preferencepack>
