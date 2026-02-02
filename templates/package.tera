@@ -1,16 +1,14 @@
 ---
 whiskers:
   version: "^2.5.1"
-  matrix:
-    - flavor
-  filename: "themes/Catppuccin {{flavor.name}}/package.xml"
+  filename: "package.xml"
 ---
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
-  <name>Catppuccin {{flavor.name}}</name>
+  <name>Catppuccin</name>
   <description>🖥️ Soothing pastel theme for FreeCAD</description>
-  <version>2026.01.16</version>
-  <date>2026-01-16</date>
+  <version>2026.02.01</version>
+  <date>2026-02-01</date>
   <maintainer email="releases@catppuccin.com">Catppuccin Org</maintainer>
   <license file="LICENSE">MIT</license>
   <url
@@ -25,12 +23,12 @@ whiskers:
   <icon>icon/catppuccin.svg</icon>
 
   <content>
+    {%- for _, flavor in flavors %}
     <preferencepack>
       <name>Catppuccin {{flavor.name}}</name>
       <description>🖥️ Soothing pastel theme for FreeCAD</description>
-      <version>2026.01.16</version>
       <tag>catppuccin</tag>
       <tag>theme</tag>
-    </preferencepack>
+    </preferencepack>{% endfor %}
   </content>
 </package>

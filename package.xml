@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
-  <name>Catppuccin Mocha</name>
+  <name>Catppuccin</name>
   <description>🖥️ Soothing pastel theme for FreeCAD</description>
-  <version>2026.01.16</version>
-  <date>2026-01-16</date>
+  <version>2026.02.01</version>
+  <date>2026-02-01</date>
   <maintainer email="releases@catppuccin.com">Catppuccin Org</maintainer>
   <license file="LICENSE">MIT</license>
   <url
     type="repository"
-    branch="mocha"
+    branch="main"
   >https://github.com/catppuccin/freecad</url>
   <url
     type="readme"
@@ -19,9 +19,26 @@
 
   <content>
     <preferencepack>
+      <name>Catppuccin Latte</name>
+      <description>🖥️ Soothing pastel theme for FreeCAD</description>
+      <tag>catppuccin</tag>
+      <tag>theme</tag>
+    </preferencepack>
+    <preferencepack>
+      <name>Catppuccin Frappé</name>
+      <description>🖥️ Soothing pastel theme for FreeCAD</description>
+      <tag>catppuccin</tag>
+      <tag>theme</tag>
+    </preferencepack>
+    <preferencepack>
+      <name>Catppuccin Macchiato</name>
+      <description>🖥️ Soothing pastel theme for FreeCAD</description>
+      <tag>catppuccin</tag>
+      <tag>theme</tag>
+    </preferencepack>
+    <preferencepack>
       <name>Catppuccin Mocha</name>
       <description>🖥️ Soothing pastel theme for FreeCAD</description>
-      <version>2026.01.16</version>
       <tag>catppuccin</tag>
       <tag>theme</tag>
     </preferencepack>
