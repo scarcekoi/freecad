@@ -37,8 +37,10 @@
 ## Usage
 
 1. Open the app and go to **Tools** > **Addon Manager**.
-2. Search for `Catppuccin`.
-3. Select the theme of your choice from the options and select `Install`.
+2. Search for **Catppuccin**.
+3. Install the option called **Catppuccin**.
+4. Go to **Edit** > **Preferences** > **General**.
+5. Select the theme of your choice from the theme dropdown and select `Apply`.
 
 ## 💝 Thanks to
 
